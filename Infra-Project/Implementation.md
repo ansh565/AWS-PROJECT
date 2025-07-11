@@ -12,7 +12,7 @@
        - **Type**: SSH | **Protocol**: TCP | **Port**: 22 | **Source**: My IP
 
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bu80k7vwxrkk8ad9j5ar.png)
+
 
 
 ### Add User Data Script
@@ -68,7 +68,6 @@ cat <<EOF > /var/www/html/index.html
 EOF
 ```
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6me15l63921n3xadlylx.png)
 
 **Similarly create three servers: server-1, server-2 and server-3 respectively**
 
