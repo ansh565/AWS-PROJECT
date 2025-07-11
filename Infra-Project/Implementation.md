@@ -71,7 +71,7 @@ EOF
 
 **Similarly create three servers: server-1, server-2 and server-3 respectively**
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/um790rnfl6xduaeh635j.png)
+https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshot%20(9910).png?raw=true
 
 ## ✅ Step 2: Create a Target Group and Register EC2 Instances
 
