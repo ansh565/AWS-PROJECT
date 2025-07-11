@@ -153,7 +153,7 @@ Choose **Application Load Balancer (ALB)**:
 
 Click **Create** under Application Load Balancer.
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xwezd5qtqb6lizc2xaqv.png)
+https://github.com/ansh565/AWS-PROJECT/blob/dfaa160d349cf18ea0bab0aadb1e194284ce7bcb/Infra-Project/Screenshot%20(9916).png
 
 ### Configure Basic Settings
 
