@@ -71,7 +71,7 @@ EOF
 
 **Similarly create three servers: server-1, server-2 and server-3 respectively**
 
-https://github.com/ansh565/AWS-PROJECT/blob/3c2b21a4afdb43b2bb222ee84e39c27969b3bd81/Infra-Project/Screenshot%20(9910).png
+![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/3c2b21a4afdb43b2bb222ee84e39c27969b3bd81/Infra-Project/Screenshot%20(9910).png)
 ## ✅ Step 2: Create a Target Group and Register EC2 Instances
 
 Once your EC2 instances are launched and NGINX is running on them (port 80), the next step is to create a **Target Group** and register your instances. This Target Group will later be linked with a Load Balancer.
@@ -118,7 +118,7 @@ On the **Register targets** page:
 
 
 
-https://github.com/ansh565/AWS-PROJECT/blob/3697ea189fabcadb062ab45bd827284ea6f42774/Infra-Project/Screenshot%20(9903).png
+![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/3697ea189fabcadb062ab45bd827284ea6f42774/Infra-Project/Screenshot%20(9903).png)
 
 https://github.com/ansh565/AWS-PROJECT/blob/72a65bc47995adc721158b188a27fc7c1c9cec53/Infra-Project/Screenshot%20(9907).png
 
@@ -131,7 +131,7 @@ After creation:
 - Click on the **Targets** tab
 - You should see the EC2 instances with a **healthy** status after a few seconds (if health checks pass)
 
-https://github.com/ansh565/AWS-PROJECT/blob/dfaa160d349cf18ea0bab0aadb1e194284ce7bcb/Infra-Project/Screenshot%20(9916).png
+[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/dfaa160d349cf18ea0bab0aadb1e194284ce7bcb/Infra-Project/Screenshot%20(9916).png)
 
 ## ✅ Step 3: Creating an Application Load Balancer and Associating It with a Target Group
 
@@ -186,8 +186,8 @@ Click **Next: Register Targets**
 
 After a few moments, your load balancer will be **provisioned and active**.
 
-https://github.com/ansh565/AWS-PROJECT/blob/8e96fc308c426acfff9b32d601a1e7099065bd51/Infra-Project/Screenshot%20(9884).png
-https://github.com/ansh565/AWS-PROJECT/blob/eba1e1cd7ecda55e9490b152f4aaa8e65de55581/Infra-Project/Screenshot%20(9887).png
+[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/8e96fc308c426acfff9b32d601a1e7099065bd51/Infra-Project/Screenshot%20(9884).png)
+[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/eba1e1cd7ecda55e9490b152f4aaa8e65de55581/Infra-Project/Screenshot%20(9887).png)
 
 ### Access Your Load Balancer
 
@@ -211,9 +211,9 @@ because the SG of ALB only allows to communicate within itself to one thing you 
 
 >-  _**Important: If using custom VPC then you need to create a new Security group for the ALB and allow traffic from every where note that ALB should be in the public subnet and anywhere rule in SG makesure to attach the SG of ALB to the server instance for security point of view**_
 
-https://github.com/ansh565/AWS-PROJECT/blob/7270dba406f3e4f125b9e17a4d3a2f2ea36afc3b/Infra-Project/screenshotaws1.png
-https://github.com/ansh565/AWS-PROJECT/blob/a8bc55a14213be2aa321b1ad571e4952c6e4748e/Infra-Project/screenshotaws2.png
-https://github.com/ansh565/AWS-PROJECT/blob/531460e1c7afe63b3b67c1925e451beb748a3159/Infra-Project/Screenshot%20(9873).png
+[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/7270dba406f3e4f125b9e17a4d3a2f2ea36afc3b/Infra-Project/screenshotaws1.png)
+[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/a8bc55a14213be2aa321b1ad571e4952c6e4748e/Infra-Project/screenshotaws2.png)
+[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/531460e1c7afe63b3b67c1925e451beb748a3159/Infra-Project/Screenshot%20(9873).png)
 > Hurray!! We are getting response from all three servers.
 
 
