@@ -211,7 +211,7 @@ because the SG of ALB only allows to communicate within itself to one thing you 
 
 >-  _**Important: If using custom VPC then you need to create a new Security group for the ALB and allow traffic from every where note that ALB should be in the public subnet and anywhere rule in SG makesure to attach the SG of ALB to the server instance for security point of view**_
 
-
+https://github.com/ansh565/AWS-PROJECT/blob/7270dba406f3e4f125b9e17a4d3a2f2ea36afc3b/Infra-Project/screenshotaws1.png
 
 
 > Hurray!! We are getting response from all three servers.
