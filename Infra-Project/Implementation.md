@@ -120,6 +120,8 @@ On the **Register targets** page:
 
 https://github.com/ansh565/AWS-PROJECT/blob/3697ea189fabcadb062ab45bd827284ea6f42774/Infra-Project/Screenshot%20(9903).png
 
+https://github.com/ansh565/AWS-PROJECT/blob/72a65bc47995adc721158b188a27fc7c1c9cec53/Infra-Project/Screenshot%20(9907).png
+
 ### Verify Registration
 
 After creation:
@@ -129,7 +131,7 @@ After creation:
 - Click on the **Targets** tab
 - You should see the EC2 instances with a **healthy** status after a few seconds (if health checks pass)
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ty8kwvxjnnbjccvekukh.png)
+
 
 ## ✅ Step 3: Creating an Application Load Balancer and Associating It with a Target Group
 
