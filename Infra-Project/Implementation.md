@@ -131,7 +131,7 @@ After creation:
 - Click on the **Targets** tab
 - You should see the EC2 instances with a **healthy** status after a few seconds (if health checks pass)
 
-
+https://github.com/ansh565/AWS-PROJECT/blob/dfaa160d349cf18ea0bab0aadb1e194284ce7bcb/Infra-Project/Screenshot%20(9916).png
 
 ## ✅ Step 3: Creating an Application Load Balancer and Associating It with a Target Group
 
@@ -153,7 +153,6 @@ Choose **Application Load Balancer (ALB)**:
 
 Click **Create** under Application Load Balancer.
 
-https://github.com/ansh565/AWS-PROJECT/blob/dfaa160d349cf18ea0bab0aadb1e194284ce7bcb/Infra-Project/Screenshot%20(9916).png
 
 ### Configure Basic Settings
 
@@ -179,8 +178,6 @@ In this step, you’ll associate the previously created **Target Group** with th
 
 Click **Next: Register Targets**
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h10e0bwp347gxnlqedsx.png)
-
 
 ### Review and Create
 
@@ -190,6 +187,7 @@ Click **Next: Register Targets**
 After a few moments, your load balancer will be **provisioned and active**.
 
 https://github.com/ansh565/AWS-PROJECT/blob/8e96fc308c426acfff9b32d601a1e7099065bd51/Infra-Project/Screenshot%20(9884).png
+https://github.com/ansh565/AWS-PROJECT/blob/eba1e1cd7ecda55e9490b152f4aaa8e65de55581/Infra-Project/Screenshot%20(9887).png
 
 ### Access Your Load Balancer
 
@@ -214,13 +212,7 @@ because the SG of ALB only allows to communicate within itself to one thing you 
 >-  _**Important: If using custom VPC then you need to create a new Security group for the ALB and allow traffic from every where note that ALB should be in the public subnet and anywhere rule in SG makesure to attach the SG of ALB to the server instance for security point of view**_
 
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lkp40ehlwa329ia7ev8q.png)
 
-
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w6jnx30cptldqnj4sido.png)
-
-
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xpuhkqqmn2npxze52o5g.png)
 
 > Hurray!! We are getting response from all three servers.
 
