@@ -86,7 +86,6 @@ Once your EC2 instances are launched and NGINX is running on them (port 80), the
 4. Click **Create target group**
 
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qy7h8xbzpfx743lxbd6s.png)
 
 
 ### Configure Target Group
@@ -117,12 +116,9 @@ On the **Register targets** page:
 4. Click **Include as pending below**.
 5. Scroll down and click **Create target group**.
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d5vo0sa25bhpm2w9jrz8.png)
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/juzer33vuje00gc56p8p.png)
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vkh786bp5mdltebom63z.png)
-
+https://github.com/ansh565/AWS-PROJECT/blob/3697ea189fabcadb062ab45bd827284ea6f42774/Infra-Project/Screenshot%20(9903).png
 
 ### Verify Registration
 
