@@ -120,7 +120,7 @@ On the **Register targets** page:
 
 ![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/3697ea189fabcadb062ab45bd827284ea6f42774/Infra-Project/Screenshot%20(9903).png)
 
-https://github.com/ansh565/AWS-PROJECT/blob/72a65bc47995adc721158b188a27fc7c1c9cec53/Infra-Project/Screenshot%20(9907).png
+[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/72a65bc47995adc721158b188a27fc7c1c9cec53/Infra-Project/Screenshot%20(9907).png)
 
 ### Verify Registration
 
