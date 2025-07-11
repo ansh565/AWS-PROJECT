@@ -163,11 +163,10 @@ Fill in the required fields:
 - **IP address type**: `IPv4`
 - **Listener**: `HTTP` on port `80`
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/klyg4au0dqwc0yygo5qq.png)
 
 Click **Next: Configure Security Settings**
 
-![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qr9qir9m3qx0r56qc6ai.png)
+
 
 
 ### Register Target Group
@@ -190,6 +189,7 @@ Click **Next: Register Targets**
 
 After a few moments, your load balancer will be **provisioned and active**.
 
+https://github.com/ansh565/AWS-PROJECT/blob/8e96fc308c426acfff9b32d601a1e7099065bd51/Infra-Project/Screenshot%20(9884).png
 
 ### Access Your Load Balancer
 
