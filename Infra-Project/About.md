@@ -86,8 +86,3 @@ Each type plays a different role depending on how you want to manage traffic, se
 That’s it for the architecture and concept explanation.
 
 ---
-
-✍️ **Author**: *Omkar Sharma*  
-📬 *Feel free to connect on [LinkedIn](https://www.linkedin.com/in/omkarsharmaa/) or explore more on [GitHub](https://github.com/omkarsharma2821)*  
-
----
