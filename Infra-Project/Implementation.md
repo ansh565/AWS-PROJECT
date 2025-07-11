@@ -71,8 +71,7 @@ EOF
 
 **Similarly create three servers: server-1, server-2 and server-3 respectively**
 
-https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshot%20(9910).png?raw=true
-
+https://github.com/ansh565/AWS-PROJECT/blob/3c2b21a4afdb43b2bb222ee84e39c27969b3bd81/Infra-Project/Screenshot%20(9910).png
 ## ✅ Step 2: Create a Target Group and Register EC2 Instances
 
 Once your EC2 instances are launched and NGINX is running on them (port 80), the next step is to create a **Target Group** and register your instances. This Target Group will later be linked with a Load Balancer.
