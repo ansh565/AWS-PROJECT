@@ -213,7 +213,7 @@ because the SG of ALB only allows to communicate within itself to one thing you 
 
 https://github.com/ansh565/AWS-PROJECT/blob/7270dba406f3e4f125b9e17a4d3a2f2ea36afc3b/Infra-Project/screenshotaws1.png
 https://github.com/ansh565/AWS-PROJECT/blob/a8bc55a14213be2aa321b1ad571e4952c6e4748e/Infra-Project/screenshotaws2.png
-
+https://github.com/ansh565/AWS-PROJECT/blob/531460e1c7afe63b3b67c1925e451beb748a3159/Infra-Project/Screenshot%20(9873).png
 > Hurray!! We are getting response from all three servers.
 
 
