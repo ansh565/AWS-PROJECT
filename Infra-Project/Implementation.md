@@ -12,7 +12,7 @@
        - **Type**: SSH | **Protocol**: TCP | **Port**: 22 | **Source**: My IP
 
 
-
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7365).png?raw=true)
 
 
 ### Add User Data Script
@@ -72,11 +72,14 @@ cat <<EOF > /var/www/html/index.html
 EOF
 ```
 
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7367).png?raw=true)
 
 **Similarly create three servers: server-1, server-2 and server-3 respectively**
 
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7387).png?raw=true)
+
 ### Step Example
-![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7388).png?raw=true)
+
 ## ✅ Step 2: Create a Target Group and Register EC2 Instances
 
 Once your EC2 instances are launched and NGINX is running on them (port 80), the next step is to create a **Target Group** and register your instances. This Target Group will later be linked with a Load Balancer.
@@ -91,6 +94,7 @@ Once your EC2 instances are launched and NGINX is running on them (port 80), the
 4. Click **Create target group**
 
 
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7369).png?raw=true)
 
 
 ### Configure Target Group
@@ -121,11 +125,12 @@ On the **Register targets** page:
 4. Click **Include as pending below**.
 5. Scroll down and click **Create target group**.
 
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7372).png?raw=true)
 
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7373).png?raw=true)
 
-![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/3697ea189fabcadb062ab45bd827284ea6f42774/Infra-Project/Screenshot%20(9903).png)
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7377).png?raw=true)
 
-[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/72a65bc47995adc721158b188a27fc7c1c9cec53/Infra-Project/Screenshot%20(9907).png)
 
 ### Verify Registration
 
@@ -136,7 +141,7 @@ After creation:
 - Click on the **Targets** tab
 - You should see the EC2 instances with a **healthy** status after a few seconds (if health checks pass)
 
-[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/dfaa160d349cf18ea0bab0aadb1e194284ce7bcb/Infra-Project/Screenshot%20(9916).png)
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7388).png?raw=true)
 
 ## ✅ Step 3: Creating an Application Load Balancer and Associating It with a Target Group
 
@@ -158,6 +163,7 @@ Choose **Application Load Balancer (ALB)**:
 
 Click **Create** under Application Load Balancer.
 
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7378).png?raw=true)
 
 ### Configure Basic Settings
 
@@ -167,10 +173,11 @@ Fill in the required fields:
 - **IP address type**: `IPv4`
 - **Listener**: `HTTP` on port `80`
 
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7379).png?raw=true)
 
 Click **Next: Configure Security Settings**
 
-
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7380).png?raw=true)
 
 
 ### Register Target Group
@@ -182,6 +189,8 @@ In this step, you’ll associate the previously created **Target Group** with th
 - **Port**: 80
 
 Click **Next: Register Targets**
+
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7383).png?raw=true)
 
 
 ### Review and Create
@@ -215,6 +224,7 @@ because the SG of ALB only allows to communicate within itself to one thing you 
 | HTTP | 80   | ALB's Security Group ID ✅ (Only allow traffic from ALB)|
 
 >-  _**Important: If using custom VPC then you need to create a new Security group for the ALB and allow traffic from every where note that ALB should be in the public subnet and anywhere rule in SG makesure to attach the SG of ALB to the server instance for security point of view**_
+
 
 [![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/7270dba406f3e4f125b9e17a4d3a2f2ea36afc3b/Infra-Project/screenshotaws1.png)
 [![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/a8bc55a14213be2aa321b1ad571e4952c6e4748e/Infra-Project/screenshotaws2.png)
