@@ -4,8 +4,8 @@
 2. Click on **Launch Instance**
 3. Fill in the details:
    - **Name**: `server-1`
-   - **Amazon Machine Image (AMI)**: Select **Ubuntu Server 22.04 LTS (HVM), SSD Volume Type**
-   - **Instance type**: `t2.micro` (Free Tier eligible)
+   - **Amazon Machine Image (AMI)**: Select **Ubuntu Server 24.04 LTS (HVM), SSD Volume Type**
+   - **Instance type**: `t3.micro` (Free Tier eligible)
    - **Key pair**: Create new or select existing
    - **Network Settings**: Use the custom VPC that you created
        - **Type**: HTTP | **Protocol**: TCP | **Port**: 80 | **Source**: Anywhere (0.0.0.0/0)
