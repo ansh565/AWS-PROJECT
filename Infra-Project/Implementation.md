@@ -200,8 +200,10 @@ Click **Next: Register Targets**
 
 After a few moments, your load balancer will be **provisioned and active**.
 
-[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/8e96fc308c426acfff9b32d601a1e7099065bd51/Infra-Project/Screenshot%20(9884).png)
-[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/eba1e1cd7ecda55e9490b152f4aaa8e65de55581/Infra-Project/Screenshot%20(9887).png)
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7390).png?raw=true)
+
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7394).png?raw=true)
+
 
 ### Access Your Load Balancer
 
@@ -226,9 +228,14 @@ because the SG of ALB only allows to communicate within itself to one thing you 
 >-  _**Important: If using custom VPC then you need to create a new Security group for the ALB and allow traffic from every where note that ALB should be in the public subnet and anywhere rule in SG makesure to attach the SG of ALB to the server instance for security point of view**_
 
 
-[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/7270dba406f3e4f125b9e17a4d3a2f2ea36afc3b/Infra-Project/screenshotaws1.png)
-[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/a8bc55a14213be2aa321b1ad571e4952c6e4748e/Infra-Project/screenshotaws2.png)
-[![Screenshot](https://github.com/ansh565/AWS-PROJECT/blob/531460e1c7afe63b3b67c1925e451beb748a3159/Infra-Project/Screenshot%20(9873).png)
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7391).png?raw=true)
+
+
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7392).png?raw=true)
+
+
+![Screenshot Example](https://github.com/ansh565/AWS-PROJECT/blob/main/Infra-Project/Screenshots/Screenshot%20(7393).png?raw=true)
+
 > Hurray!! We are getting response from all three servers.
 
 
