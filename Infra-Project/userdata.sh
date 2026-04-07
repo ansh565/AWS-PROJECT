@@ -11,7 +11,7 @@ cat <<EOF > /var/www/html/index.html
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ansh Server</title>
+  <title>Ansh Server 1</title>
   <style>
     body {
       margin: 0;
@@ -44,7 +44,7 @@ cat <<EOF > /var/www/html/index.html
 <body>
   <h1>Welcome to Ansh Server!</h1>
   <p>This server is proudly hosted as:</p>
-  <div class="box">$(hostname)</div>
+  <div class="box">Server-1 ($(hostname))</div>
 </body>
 </html>
 EOF
