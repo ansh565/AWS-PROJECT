@@ -42,7 +42,7 @@ cat <<EOF > /var/www/html/index.html
   </style>
 </head>
 <body>
-  <h1>Welcome to Ansh Server!</h1>
+  <h1>Welcome to Ansh Server !</h1>
   <p>This server is proudly hosted as:</p>
   <div class="box">Server-1 ($(hostname))</div>
 </body>
