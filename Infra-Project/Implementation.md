@@ -21,48 +21,52 @@ In the **Advanced Details** section, paste the following **user-data** script:
 
 ```bash
 #!/bin/bash
-apt-get update
+
+apt-get update -y
 apt-get install nginx -y
+
+systemctl start nginx
+systemctl enable nginx
 
 cat <<EOF > /var/www/html/index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Welcome to $(hostname)</title>
+  <meta charset="UTF-8">
+  <title>Ansh Server 1</title>
   <style>
     body {
-      background: linear-gradient(135deg, #1e3c72, #2a5298);
-      color: white;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      height: 100vh;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      margin: 0;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+      color: white;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
     }
     h1 {
       font-size: 3em;
-      margin: 0.2em 0;
+      margin-bottom: 10px;
     }
     p {
-      font-size: 1.2em;
-      color: #cce3ff;
+      font-size: 1.3em;
     }
-    .hostname {
-      background: #ffffff33;
-      padding: 0.5em 1em;
+    .box {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 15px 25px;
       border-radius: 10px;
+      margin-top: 10px;
+      font-size: 1.5em;
       font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1> Welcome to Omkar Server!</h1>
+  <h1>Welcome to Ansh Server !</h1>
   <p>This server is proudly hosted as:</p>
-  <div class="hostname">$(hostname)</div>
+  <div class="box">Server-1 ($(hostname))</div>
 </body>
 </html>
 EOF
